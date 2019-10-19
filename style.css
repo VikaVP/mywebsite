@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbbbbb;
+}
+
+li a {
+    display: block;
+    color: seashell;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #bbbbbb;
+}
+
+.active {
+    background-color: salmon;
+}
+
+.jumbotron {
+    background-image: url(assets/jumbotron.jpeg);
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+    position: relative;
+    margin-top: -75px;
+    height: 640px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
+}
+
+.greeting {
+
+    color: white;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -330px;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 40px;
+    font-weight: 300;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+
+}
+
+.about {
+    width: 100%;
+    height: 400px;
+
+    padding: 50px;
+    margin-top: 180px;
+    background-color: rgb(199, 191, 197);
+    box-sizing: border-box;
+
+    text-align: center;
+    font-family: 'Zhi Mang Xing', cursive;
+
+}
+
+
+
+.about h1 {
+    font-size: 40px;
+}
+
+.about p {
+    font-size: 25px;
+}
+
+.about img {
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, .7);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 1);
+
+}
+
+.content {
+    margin-top: -110px;
+    background-color: rgb(231, 228, 228);
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, .7);
+    position: relative;
+}
+
+.portofolio {
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(219, 217, 219);
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 20px;
+    color: black;
+
+
+}
+
+
+
+.portofolio img {
+    width: 200px;
+    height: 300px;
+    margin: 30px 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+
+}
+
+.portofolio img:hover {
+    width: 220px;
+    height: 330px;
+    opacity: .8;
+}
+
+.contact {
+    width: 100%;
+    height: 700px;
+    padding: 50px;
+    background-color: black;
+    background-image: url("assets/5.png");
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Jomolhari', serif;
+    font-size: 20px;
+    position: relative;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .7);
+}
+
+.cont {
+    margin: 30px 20px;
+
+}
+
+input {
+    border: 1px solid blue;
+
+}
+
+form {
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    opacity: .8;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
+}
+
+button:hover {
+    width: 110px;
+    height: 60px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: seashell;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+
+
+}
+
+footer a {
+    background-image: url("assets/arrow\ top.png.jpeg");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 50px;
+
+
+}
